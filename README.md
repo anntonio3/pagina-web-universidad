@@ -14,3 +14,6 @@ Este proyecto es una simulación visual de la página principal de la universida
 - CSS3
 - Bootstrap 5
 
+##  Desarrollado por
+- Antonio Benitez Lopez
+
