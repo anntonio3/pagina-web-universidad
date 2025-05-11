@@ -1,0 +1,21 @@
+@import"../../node_modules/bootstrap/scss/_functions.scss";
+@import"../../node_modules/bootstrap/scss/_variables.scss";
+
+$deep-teal: #036856; 
+$muted-teal: #6AB0A2; 
+$light-gray: #cccccc4f; 
+$cian-neon: #03f8cb4d;
+$lightblue: #add8e6;
+
+
+$custom-colors: (
+	"deep-teal": $deep-teal,
+	"muted-teal": $muted-teal,
+	"light-gray": $light-gray,
+	"cian-neon": $cian-neon,
+	"lightblue": $lightblue
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
